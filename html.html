@@ -12,8 +12,11 @@
     </header>
     <main>
         <div class="content">
-            <h2>Прогноз погоды</h2>
-            <p>Здесь будет прогноз погоды</p>
+            <div class="weather-widget">
+                <p class="weather-label">Погода в вашем городе</p>
+                <input type="text" placeholder="Введите название города" id="city-input" class="text-area">
+                <button id="get-weather-btn" class="btn">Получить погоду</button>
+            </div>
             <div class="weather-info">
                 <p>Температура: 20°C</p>
                 <p>Влажность: 60%</p>
@@ -21,5 +24,6 @@
             </div>
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
